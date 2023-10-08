@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#FF000000</color>
+    <color name="colorPrimary">#FFFFFFFF</color>
+    <color name="colorAccent">#3BB66D</color>
+    <color name="top_bg">#EEEBEB</color>
+    <color name="math_stat">#F56BD2</color>
+    <color name="math_end">#A20BBD</color>
+    <color name="phy_stat">#F0A12C</color>
+    <color name="phy_end">#F06406</color>
+    <color name="che_stat">#E98F0B</color>
+    <color name="che_end">#F8CA40</color>
+    <color name="bio_stat">#EBF39B73</color>
+    <color name="bio_end">#F38524</color>
+    <color name="geo_stat">#C11CDD</color>
+    <color name="geo_end">#526AEE</color>
+    <color name="comp_stat">#3EC2FA</color>
+    <color name="comp_end">#526AEE</color>
+
+</resources>
