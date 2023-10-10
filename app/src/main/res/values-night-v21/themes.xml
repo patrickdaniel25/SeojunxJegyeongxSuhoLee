@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.SeojunHanXJegyeongXSuhoLee" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <!-- Theme Style for Night Mode Switch -->
+    <style name="nightModeSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/night_mode</item>
+        <item name="colorSwitchThumbNormal">#FFFFFF</item>
+        <item name="android:colorForeground">#99FFFFFF</item>
+    </style>
+
+    <!-- Theme Style for Notification Switch -->
+    <style name="notificationSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/notifications</item>
+        <item name="colorSwitchThumbNormal">#FFFFFF</item>
+        <item name="android:colorForeground">#99FFFFFF</item>
+    </style>
+
+    <!-- Theme Style for Private Account Switch -->
+    <style name="privateAccountSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/private_account</item>
+        <item name="colorSwitchThumbNormal">#FFFFFF</item>
+        <item name="android:colorForeground">#99FFFFFF</item>
+    </style>
+
+</resources>

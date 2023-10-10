@@ -4,13 +4,15 @@ plugins {
 }
 
 android {
-    namespace 'com.example.seojunhanxjegyeongxsuholee'
-    compileSdk 33
+    compileSdkVersion 34
+
+    namespace 'com.example.seojunhanxjegyeongxsuholee' // Add this line to specify the namespace
 
     defaultConfig {
         applicationId "com.example.seojunhanxjegyeongxsuholee"
-        minSdk 19
-        targetSdk 33
+        minSdkVersion 19
+        targetSdkVersion 34
+
         versionCode 1
         versionName "1.0"
 
@@ -23,23 +25,27 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
     kotlinOptions {
         jvmTarget = '1.8'
     }
 }
 
 dependencies {
-    //dependency for circular image
+    // Dependency for circular image
     implementation 'de.hdodenhof:circleimageview:3.1.0'
 
-    implementation 'androidx.core:core-ktx:1.12.0'
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.9.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    // Update dependencies to versions compatible with compile SDK 34
+    implementation 'androidx.core:core-ktx:1.12.0' // Update to a compatible version
+    implementation 'androidx.appcompat:appcompat:1.6.1' // Update to a compatible version
+    implementation 'com.google.android.material:material:1.10.0' // Update to a compatible version
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4' // Update to a compatible version
+
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'

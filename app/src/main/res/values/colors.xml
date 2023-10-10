@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Color For Dashboard of Functionaries and Admin is here -->
     <color name="colorPrimaryDark">#FF000000</color>
     <color name="colorPrimary">#FFFFFFFF</color>
     <color name="colorAccent">#3BB66D</color>
@@ -16,5 +17,18 @@
     <color name="geo_end">#526AEE</color>
     <color name="comp_stat">#3EC2FA</color>
     <color name="comp_end">#526AEE</color>
+    <!-- Color for Settings Screen -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="primary">#1B023B</color>
+    <color name="secondary">#FF03DAC5</color>
+    <color name="black">#000000</color>
+    <color name="night_mode">#6124B1</color>
+    <color name="notifications">#13B2C3</color>
+    <color name="private_account">#E6A326</color>
+    <color name="security">#D95F69</color>
 
 </resources>
